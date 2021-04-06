@@ -44,8 +44,6 @@ group :development do
   gem 'spring'
 end
 
-gem 'rubocop', '~> 1.12', '>= 1.12.1'
-
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
