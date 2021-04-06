@@ -1,24 +1,45 @@
-# README
+# Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
+- Ruby (+3)
+- Ruby on Rails (+6)
+- Bundler (+2.1)
 
-Things you may want to cover:
+## Cloning
 
-* Ruby version
+- If you want to clone it locally with HTTPS
+```
+$ git clone https://github.com/mgunduz1/Micro-Reddit.git
+```
 
-* System dependencies
+- If you want to clone it locally with SSH
+```
+$ git clone git@github.com:mgunduz1/Micro-Reddit.git
+```
 
-* Configuration
+## Usage
 
-* Database creation
+```
+$ cd microReddit
+$ bundle install
+$ yarn install --check-files
+$ rails db:migrate
+$ rails c
+```
 
-* Database initialization
 
-* How to run the test suite
+## ✒️  Author <a name = "author"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Luqman Musah **
+- Github: [@luqmanmusah](https://github.com/luqmanmusah)
+- Linkedin: [Luqman Musah](https://www.linkedin.com/)
 
-* Deployment instructions
+👤 **Mert Gündüz**
+- Github: [@mgunduz1](https://github.com/mgunduz1)
+- Linkedin: [Mert Gunduz](https://www.linkedin.com/in/mert-gunduz-875280202/)
 
-* ...
+
+
+## 📝 License
+
+This Project has no Licence.
