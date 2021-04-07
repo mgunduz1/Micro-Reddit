@@ -1,4 +1,5 @@
 class User < ApplicationRecord
-    has_many :posts
-    validates :name, uniqueness: true, presence: true
+  has_many :posts
+  has_many :comments
+  validates :name, uniqueness: true, presence: true
 end
